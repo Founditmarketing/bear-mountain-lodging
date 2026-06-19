@@ -1,0 +1,526 @@
+/* 
+ Theme Name:     Royalish
+ Author:         markhendriksen.com
+ Author URI:     https://www.markhendriksen.com
+ Template:       Divi
+ Version:        1.0
+ Description:  	 A child theme for Divi
+*/ 
+
+
+/* ----------- PUT YOUR CUSTOM CSS BELOW THIS LINE -- DO NOT EDIT ABOVE THIS LINE --------------------------- */ 
+
+/* ##### CHANGE COLORS ##### */
+
+/* ######## MOBILE HAMBURGER ######### */
+
+.mobile_menu_bar:before {
+	color: #43516c;
+}
+
+/* ######## BUTTON SINGLE BLOG POST ######### */
+
+.more-link {
+    background-color: #06659f;
+    color: #fff;
+}
+
+/* ######### SIDEBAR WIDGETS ########## */
+
+.et_pb_widget {
+border: 1px solid #e5e5e5;
+border-top: 5px solid #43516c;
+}
+
+/* ##### END CHANGE COLORS ##### */
+
+
+
+/* ##### GENERAL ##### */
+
+#page-container {
+	overflow: hidden;
+}
+
+@media (max-width: 980px) {
+.title_mobile_center h2 {
+	text-align: center;
+}
+
+.button_center_mobile .et_pb_button_module_wrapper {
+	text-align: center;	
+}}
+
+@media (min-width: 981px) and (max-width: 1400px) {
+.et_pb_row.custom_row_95,
+.container.et_menu_container {
+	max-width: 95% !important;
+    width: 95% !important;
+}}
+
+
+/* ##### TOP HEADER ##### */
+
+.custom_header h3 {
+	padding-bottom: 0px !important;
+}
+
+/* ##### MENU ##### */
+
+#et-top-navigation {
+	width: 100%;
+	padding-left: 0px !important;
+	text-align: center !important;
+}
+
+.container.et_menu_container {
+	max-width: 1400px !important;
+}
+
+#top-menu li {
+    padding-right: 75px;
+}
+
+@media (min-width: 981px) and (max-width: 1200px) {
+#top-menu li {
+    padding-right: 35px;
+}
+}
+
+.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation {
+    padding-top: 25px !important;
+}
+
+.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation {
+    padding-top: 22px !important;
+}
+
+.et_header_style_left #et-top-navigation nav>ul>li>a, .et_header_style_split #et-top-navigation nav>ul>li>a {
+    padding-bottom: 23px;
+}
+
+#top-menu-nav,
+#top-menu {
+	width: 100%;
+}
+
+#et_mobile_nav_menu {
+	float: none !important;
+}
+
+@media (min-width: 480px) and (max-width: 980px) {
+.custom_logo .et_pb_image {
+	margin-right: 0px !important;
+    margin-left: 0px !important;
+	text-align: left !important;	
+}}
+
+/* ##### HEADER IMAGE HOME PAGE ##### */
+
+.header_image_top_left .et_pb_image_wrap {
+    transform: rotate(345deg);
+}
+
+.header_image_top_right .et_pb_image_wrap {
+    transform: rotate(15deg);
+}
+
+.header_image_bottom_right .et_pb_image_wrap {
+	transform: rotate(350deg);
+}
+
+@media (min-width: 981px) and (max-width: 1400px) {
+.header_title_home h1 {
+	font-size: 70px !important;
+}
+
+.et_pb_text.header_title_home {
+	margin-top: 50px!important;
+}
+
+.custom_header_image {
+	padding-bottom: 75px !important;
+	padding-top: 75px !important;
+}}
+
+@media (min-width: 1401px) and (max-width: 1700px) {
+.header_title_home h1 {
+	font-size: 100px !important;
+}}
+
+/* ##### HOME SERVICES ##### */
+
+@media (min-width: 480px) {
+.home_service_1,
+.home_service_3 {
+	border-right: 5px solid #fff;
+}}
+
+@media (max-width: 767px) {
+.home_service_1,
+.home_service_2,
+.home_service_3,
+.home_service_4 {
+	border-bottom: 5px solid #fff;
+}}
+
+
+
+.service_home_overlay {
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.service_home_overlay:hover {
+    background: rgba(255, 255, 255, 0) !important;
+}
+
+@media (min-width: 981px) and (max-width: 1400px) {
+.title_mobile_center {
+	max-width: 100% !important;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+.et_pb_section.custom_services_home .et_pb_row {
+	max-width: 95%!important;
+    width: 95%;
+}}
+
+/* ##### HOME CHOOSE US ##### */
+
+@media (min-width: 981px) and (max-width: 1400px) {
+.choose_us_home {
+	padding-left:125px !important;	
+}
+
+.choose_us_home h4.et_pb_module_header {
+	font-size: 16px !important;	
+}}
+
+
+/* ##### HOME HOW WE WORK ##### */
+
+@media (min-width: 981px) {
+.how_we_work_blurb .et_pb_image_wrap {
+	margin-top: 25px;
+    padding-right: 25px;
+}}
+
+.how_we_work_blurb_1,
+.how_we_work_blurb_3 {
+	border-right: 5px solid #fff;
+}
+
+/* ##### HOME PROJECTS ##### */
+
+@media (min-width: 981px) {
+.home_project_1,
+.home_project_2,
+.home_project_3 {
+	border-right: 5px solid #fff;
+}}
+
+@media (max-width: 479px) {
+.home_project_1,
+.home_project_2,
+.home_project_3 {
+	border-bottom: 5px solid #fff;
+}}
+
+@media (min-width: 480px) and (max-width: 980px) {
+.home_project_1,
+.home_project_3 {
+	border-right: 5px solid #fff;	
+}
+
+.home_project_1,
+.home_project_2 {
+	border-bottom: 5px solid #fff;	
+}}
+
+.projects_title_row .projects_title_row_1_4_first {
+	width: 35%;
+}
+
+.projects_title_row .projects_title_row_1_4_second {
+	width: 15%;
+}
+
+/* ##### SUB PAGES GENERAL ##### */
+
+@media (max-width: 479px) {
+.sub_header .header-content {
+    width: 100% !important;
+}}
+
+/* ##### ABOUT US PAGES ##### */
+
+@media (min-width: 981px) and (max-width: 1300px) {
+.about_us_column_top_padding {
+	padding-top:125px;
+}}
+
+
+/* ##### SERVICES PAGES ##### */
+
+.service_page_row .et_pb_column {
+    box-shadow: 0px 2px 30px 4px rgba(0,0,0,0.15);
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.service_page_row .et_pb_column:hover {
+    box-shadow: 0px 2px 30px 4px rgba(0,0,0,0);
+}
+
+
+/* ##### TESTIMONIAL PAGE ##### */
+
+.custom_testimonial .et_pb_testimonial_description {
+	float: right;
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+
+.custom_testimonial .et_pb_testimonial_portrait {
+    display: block;
+    float: left;
+}
+
+@media (min-width: 981px) and (max-width: 1300px) {
+.custom_testimonial .et_pb_testimonial_portrait {
+    text-align: center;
+    float: none;
+}
+
+.custom_testimonial .et_pb_testimonial_description {
+	float: none;
+    width: 100%;
+    text-align: center;
+}}
+
+
+/* ##### BLOG PAGE ##### */
+
+.more-link {
+	display: inline-block !important;
+    padding: 1px 15px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25098039215686274);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* ############################ */
+/* ######### SIDEBAR ########## */
+/* ############################ */
+
+.et_pb_widget {
+padding: 30px;
+border-radius: 5px;
+}
+
+h4.widgettitle {
+font-size: 24px;
+font-weight: bold;
+}
+
+.et_pb_widget ul li {
+margin-bottom: 0em;
+}
+
+.et_pb_widget ul {
+padding-left: 40px !important;
+list-style-type: disc !important;
+}
+
+.et_pb_widget li a:hover {
+color: #000 !important;
+}
+
+/* ###### SEARCH RESULT PAGE ###### */
+
+@media (min-width: 981px) {
+.search #left-area {
+	width: 64.833%;
+}
+
+.search #sidebar {
+	width: 29.666%;
+	border-left: 1px solid #e2e2e2;
+}
+
+.search #main-content .container:before {
+    display: none !important;
+}}
+
+.search .et_pb_post a img {
+    padding-bottom: 25px;
+}
+
+.search h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.search h4.widgettitle {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.search #sidebar .et_pb_widget {
+	padding: 25px;
+	margin-bottom: 18.54%;
+}
+
+/* ###### CATEGORY PAGE ###### */
+
+@media (min-width: 981px) {
+.category #left-area {
+	width: 64.833%;
+}
+
+.category #sidebar {
+	width: 29.666%;
+	border-left: 1px solid #e2e2e2;
+}
+
+.category #main-content .container:before {
+    display: none !important;
+}}
+
+.category .et_pb_post a img {
+    padding-bottom: 25px;
+}
+
+.category h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.category h4.widgettitle {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.category #sidebar .et_pb_widget {
+	padding: 25px;
+	margin-bottom: 18.54%;
+}
+
+/* ##### CTA FIXED DESKTOP ##### */
+
+.cta_fixed_right_container {
+	position:fixed;
+	top: 25%;
+	right:0px;
+	z-index:9999999;
+	transform: translateX(100%);
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 10px;
+    transition: 0.5s ease-out;
+}
+
+.show_form {
+	transform: translateX(0px);
+}
+
+
+.cta_fixed_right_tab_text {
+    transform: translate(-100%, -100%) rotate(-90deg);
+    transform-origin: right bottom 0px;
+    position: absolute;
+    top: 0px;
+    min-width: 200px;
+    text-align: center;
+    justify-content: center;
+    padding: 1.3rem 1rem 1rem 1em;
+    margin: 0px;
+    display: flex;
+}
+
+.cta_fixed_right_tab_text:hover {
+	cursor: pointer;
+}
+
+.custom_contact_form p input, .custom_contact_form p textarea {
+    padding: 15px 0 10px 0 !important;
+}
+
+.fa-times-circle {
+	font-size: 22px;
+	cursor: pointer;
+	color: #000 !important;
+}
+
+/* ##### CTA FIXED MOBILE ##### */
+
+@media (max-width: 980px) {
+.cta_fixed_right_container_mobile {
+	position:fixed;
+	bottom: 0 !important;
+	right:0px !important;
+	left:0px !important;
+	z-index:99999999;
+	transform: translateY(100%);
+	transition: 0.5s ease-out;
+}
+
+.cta_fixed_right_tab_text_mobile  {
+	transform: translate(0%, -100%) rotate(0deg);
+    transform-origin: center bottom 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 1.3rem 1rem 1rem 1em;
+    margin: 0px;
+    display: flex;
+}
+
+.show_form {
+transform: translateY(0px);
+}
+
+.cta_fixed_right_tab_text_mobile:hover {
+	cursor: pointer;
+}	
+
+.cross_icon .fa-times-circle {	
+	float: right !important;
+    margin-right: 35px !important;	
+}}
+
+@media (max-height: 560px) {
+.cta_fixed_right_container_mobile {
+	display: none;	
+}}
+
+/* ###### DIVI 4.0+ FIXES ###### */
+
+@media (min-width: 981px) {
+.custom_menu li {
+    padding-right: 75px !important;
+}
+
+#top-menu-nav,
+.custom_menu {
+	width: 100%;
+}}
+
+@media (min-width: 981px) and (max-width: 1200px) {
+.custom_menu li {
+    padding-right: 35px !important;
+}}
+
+
+
+/* ###### Developing Calender ###### */
